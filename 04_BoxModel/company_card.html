@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Card</title>
+    <link rel="stylesheet" href="company_card.css">
+</head>
+
+<body class="page-background-color">
+    <div class="company-card centre">
+        <h1 style="margin-bottom: 15px;">🏢</h1>
+        <h1 style="margin-bottom: 15px;">Your Company</h1>
+        <p style="margin: 0px auto 30px; font-size: 12px; text-align: center;">Tell us about your company.
+            You will be able to invite your teammates in the next step.</p>
+
+        <form action="">
+            <label for="" style="display: block; text-align: left;">Company name</label>
+            <input class="inputField" type="text" placeholder="Enter your user name" required minlength="3"
+                maxlength="50">
+            <br>
+            <label for="" style="display: block; text-align: left;"">Industry</label>
+                <select name="industry" id="" class="inputField">
+                    <option value="Information Technology" name="industry">Information Technology</option>
+                    <option value="Manufacturing" name="industry">Manufacturing</option>
+                    <option value="Retail" name="industry">Retail</option>
+                </select>
+                <label for="" style="display: block; text-align: left;">Your Role</label>
+                <select name="yourRole" id="" class="inputField"">
+                    <option value="Software Engineer" name="yourRole">Software Engineer</option>
+                    <option value="Production Engineer" name="yourRole">Production Engineer</option>
+                    <option value="Energy & Utilities" name="yourRole">Energy & Utilities</option>
+                    </select>
+                <label for="" style="display: block; text-align: left;">Company size</label>
+                <select name="companySize" id="" class="inputField">
+                    <option value="2-10" name="companySize">2-10</option>
+                    <option value="10-50" name="companySize">10-50</option>
+                    <option value="50-100" name="companySize">50-100</option>
+                </select>
+                <br><br>
+            <button class="btn" type="submit">Continue</button>
+        </form>
+    </div>
+</body>
+</html>

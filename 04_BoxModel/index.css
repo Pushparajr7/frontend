@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    margin: 100px auto;
+    width: 500px;
+    background-color: #D1F4FE;
+    color: #044767;
+    border-radius: 30px;
+    text-align: center;
+    padding: 25px;
+}
+
+.ink{
+    color: #044767;
+    text-decoration: none;
+}
+
+.link-btn {
+    background-color: #044767;
+    padding: 15px 30px;
+    width: 50%;
+    border-radius: 15px;
+     margin: 10px auto;
+}

@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 700px;
+    margin: 100px auto;
+}
+.title {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 20px 0px;
+}
+.blog-img{
+    width: 100%;
+}
+
+.spacer{
+    margin-bottom: 20px;
+}
+p{
+    text-align: justify;
+}
+.btn {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}

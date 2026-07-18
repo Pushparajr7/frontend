@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms And Tables</title>
+</head>
+<body>
+    <section>
+        <div>
+            <Table border>
+                <tr>
+                    <th>Name</th>
+                    <th>Color</th>
+                    <th>Taste</th>
+                </tr>
+                <tr>
+                    <td>Apple</td>
+                    <td>Red</td>
+                    <td>Sweet</td>
+                </tr>
+                <tr>
+                    <td>Pineapple</td>
+                    <td>Yellow</td>
+                    <td>Sweet</td>
+                </tr>
+                <tr>
+                    <td>Orange</td>
+                    <td>Orange</td>
+                    <td>Sweet</td>
+                </tr>
+            </Table>
+        </div>
+        <br>
+        <div>
+            <h3>Favourite Movies</h3>
+            <ul type="square">
+                <li>Fight Club</li>
+                <li>Shawshank Redemption</li>
+                <li>Superman Man of Steel</li>
+                <li>GoodFellas</li>
+                <li>The Dark knight trilogy</li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <h3>Rules of Fight Club</h3>
+            <ol type="1">
+                <li>You do not talk about Fight Club.</li>
+                <li>You DO NOT talk about Fight Club.</li>
+                <li>If someone yells "stop!", goes limp, or taps out, the fight is over.</li>
+            </ol>
+        </div>
+    </section>
+    <section>
+        <h2>User Details Form</h2>
+        <div>
+            <form action="">
+                <label for="">User Name</label>
+                <input type="text" placeholder="Enter your user name" required minlength="3" maxlength="50">
+                <br>
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter your email" required>
+                <br>
+                <label for="">Password</label>
+                <input type="password" placeholder="Enter your password" required minlength="8">
+                <br>
+                <h3>Select your Gender</h3>
+                <label for="">Male</label>
+                <input type="radio" name="Gender">
+                <br>
+                <label for="">Female</label>
+                <input type="radio" name="Gender">
+                <br>
+                <label for="">Others</label>
+                <input type="radio" name="Gender">
+                <br>
+                <h3>Select Your Age</h3>
+                <select name="Age" id="">
+                    <option value="18-24" name="Age">18-24</option>
+                    <option value="25-34" name="Age">25-34</option>
+                    <option value="35-44" name="Age">35-44</option>
+                </select>
+                <br>
+                <label for="">Opt for Newsletter</label>
+                <input type="checkbox" name="Newsletter">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
