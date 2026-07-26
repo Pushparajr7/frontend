@@ -1,0 +1,296 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page-background-color {
+    background-color: #000000;
+}
+.free-trail{
+    background: #5D32BF;
+    background: linear-gradient(90deg, rgba(93, 50, 191, 1) 0%, rgba(144, 34, 126, 1) 50%, rgba(223, 9, 26, 1) 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    z-index: 50;
+}
+.hero-section {
+position: relative;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 3.000%, rgba(0, 0, 0, 0.8465) 11.08%, rgba(0, 0, 0, 0.8361) 19.17%, rgba(0, 0, 0, 0.8187) 27.25%, rgba(0, 0, 0, 0.7944) 35.33%, rgba(0, 0, 0, 0.7632) 43.42%, rgba(0, 0, 0, 0.7250) 51.50%, rgba(0, 0, 0, 0.6868) 59.58%, rgba(0, 0, 0, 0.6556) 67.67%, rgba(0, 0, 0, 0.6313) 75.75%, rgba(0, 0, 0, 0.6139) 83.83%, rgba(0, 0, 0, 0.6035) 91.92%, rgba(0, 0, 0, 0.6000) 100.0%);
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 150px;
+    
+    position: relative;
+    top: 10px;
+    z-index: 1;
+
+}
+.logo{
+    width: 150px;
+}
+.lang{
+    border: 1px solid grey;
+    padding: 5px 25px;
+    background-color: #00000000;
+    border-radius: 5px;
+    color: white;
+}
+.sign-in-btn{
+    background-color: red;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+     z-index: -1;
+     
+}
+
+.hero-contnet-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    color: white;
+    text-align: center;
+}
+
+.trail-btn{
+    display: flex;
+    gap: 10px;
+}
+.email-input{
+    width: 50%;
+    padding: 12px ;
+    border: 1px solid grey;
+    background-color: #00000010;
+    border-radius: 5px;
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 12px ;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.trending-now-section{
+    width: 1100px;
+    margin:  50px auto;
+}
+
+.trending-list {
+    display: flex;
+    gap: 40px;
+}
+
+.movie-card {
+    position: relative;
+    width: 180px;
+}
+
+.poster {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.num {
+    position: absolute;
+    bottom: 20px;
+    left: -35px;
+    font-size: 130px;
+    font-weight: 900;
+    color: white;                  
+    z-index: 50;
+}
+
+.reasons-section{
+    width: 1100px;
+    margin: 80px auto;
+}
+
+
+
+.reasons-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.reason-card{
+    position: relative;
+    min-height: 320px;
+
+    padding: 28px;
+
+    border-radius: 18px;
+
+    background: linear-gradient(
+        180deg,
+        #1b1b4b 0%,
+        #231126 100%
+    );
+
+    overflow: hidden;
+}
+
+/* .reason-card h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.reason-card p{
+    color: #c9c9d0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+} */
+
+.icon{
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+
+    font-size: 55px;
+}
+
+.reason-card-text{
+    color: white;
+}
+.reason-card-text-paragraph{
+    color: #bbbbc4;
+}
+
+.faq-section{
+    width: 1100px;
+    margin:  50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.faq-list-style {
+    display: flex;
+    background-color: #2D2D2D;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.trail-signup-section{
+    width: 1100px;
+    margin: 80px auto;
+}
+
+.email-signup{
+    display: flex;
+    gap: 10px;
+    width: 75%;
+    margin: auto;
+}
+
+.btn-trail-signup{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding: 12px ;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.email-input-trail-signup{
+    width: 70%;
+    padding: 12px ;
+    border: 1px solid grey;
+    background-color: #00000010;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer-section{
+    width: 1100px;
+    margin: 80px auto;
+}
+
+.footer-question{
+    color: #B3B3B3;
+    font-size: 16px;
+}
+
+.footer-link{
+    color: #B3B3B3;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-lang{
+    padding: 10px 25px;
+}
+
+.footer-country{
+    color: white;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    color: grey;
+    margin-top: 40px;
+    font-size: 13px;
+}
